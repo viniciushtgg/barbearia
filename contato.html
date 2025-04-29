@@ -25,13 +25,13 @@
     <main>
         <form>
             <label>Nome e sobrenome<input type="text" class="input-padrao" required></label>
-            <label>Email<input type=”email”  class="input-padrao" required></label>
-            <label>Telefone<input type=”tel”  class="input-padrao" required></label>
+            <label>Email<input type=”email” class="input-padrao" required placeholder="seuemail@dominio"></label>
+            <label>Telefone<input type=”tel” class="input-padrao" required placeholder="(XX) XXXXX-XXXX"></label>
 
             <label for="mensagem">Digite sua mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem"  class="input-padrao" required></textarea>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-            <div>
+            <fieldset>
                 <label>Como prefere o nosso contato:</label>
                 <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">
                     E-mail</label>
@@ -39,22 +39,46 @@
                 <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
                         id="radio-telefone">Telefone</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
-                        id="radio-whatsapp">WhatsApp</label>
-            </div>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked>WhatsApp</label>
+            </fieldset>
 
-            <div>
+            <fieldset>
                 <label>Em que horário voce prefere que entremos em contato</label>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
-            </div>
+            </fieldset>
 
-            <label ><input type="checkbox" class="checkbox">Gostaria de receber nossa novidades por e-mail?</label>
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossa novidades por
+                e-mail?</label>
 
-            <input type="submit" value="Enviar formulário">
+            <input class="enviar" type="submit" value="Enviar formulário">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Segunda</th>
+                        <th>8h ~ 20h</th>
+                    </tr>
+                    <tr>
+                        <th>Quarta</th>
+                        <th>8h ~ 20h</th>
+                    </tr>
+                    <tr>
+                        <th>Sexta</th>
+                        <th>8h ~ 20h</th>
+                    </tr>
+                </tbody>
+            </table>
         </form>
     </main>
     <footer>

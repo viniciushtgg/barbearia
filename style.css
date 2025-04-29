@@ -116,3 +116,21 @@ form label {
     margin: 20px;
 }
 
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform:scale(1.2);
+}
+
