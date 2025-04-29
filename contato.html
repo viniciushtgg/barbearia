@@ -24,12 +24,12 @@
     </header>
     <main>
         <form>
-            <label><input type="text" class="input-padrao"/>Nome e sobrenome</label>
-            <label><input type=”text”  class="input-padrao"/>Email</label>
-            <label><input type=”text”  class="input-padrao"/>Telefone</label>
+            <label>Nome e sobrenome<input type="text" class="input-padrao" required></label>
+            <label>Email<input type=”email”  class="input-padrao" required></label>
+            <label>Telefone<input type=”tel”  class="input-padrao" required></label>
 
             <label for="mensagem">Digite sua mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem"  class="input-padrao"></textarea>
+            <textarea cols="70" rows="10" id="mensagem"  class="input-padrao" required></textarea>
 
             <div>
                 <label>Como prefere o nosso contato:</label>
@@ -52,7 +52,7 @@
                 </select>
             </div>
 
-            <label><input type="checkbox">Gostaria de receber nossa novidades por e-mail?</label>
+            <label ><input type="checkbox" class="checkbox">Gostaria de receber nossa novidades por e-mail?</label>
 
             <input type="submit" value="Enviar formulário">
         </form>
