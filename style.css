@@ -105,7 +105,7 @@ form label {
     margin: 0 0 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 15px;
