@@ -134,3 +134,17 @@ form label {
     transform:scale(1.2);
 }
 
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+th {
+    padding: 8px 15px;
+    border: 1px solid black;
+}
